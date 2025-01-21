@@ -1,1 +1,10 @@
 #website2
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.content-width{
+    width: 90%;
+    margin: auto;
+}
