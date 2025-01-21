@@ -5,6 +5,115 @@
 }
 
 .content-width{
-    width: 90%;
+    width: 80%;
     margin: auto;
+}
+.menu{
+    display: flex;
+}
+.logo-part{
+    width: 15%;
+}
+.menu-item{
+    width: 75%;
+    margin: auto;
+    
+}
+.btn{
+    width: 10%;
+    margin: auto;
+
+}
+/* logo */
+.logo-part{
+    display: flex;
+}
+.img-size{
+    width: 80px;
+    height: 80px;
+    
+}
+.logo-heading{
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+/* menu-item */
+.item{
+    list-style: none;
+   display: flex;
+   justify-content: center;
+   padding: 10px;
+   align-items: center;
+   font-size: 22px;
+    
+}
+.ok{
+    margin: 0 20px;
+}
+.a{
+    color: #fea301;
+}
+.b{
+    color: #01acfd;
+}
+.c{
+    color: #3cd8e8;
+}
+.d{
+    color: #5d58f0;
+}
+/* bottun-part */
+.btn a{
+    background: #fea301;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffff;
+    padding: 10px 40px;
+    border-radius: 7px;
+}
+/* header-part-end */
+/* banner-strat */
+.banner{
+    display: flex;
+}
+.banner1{
+    width: 60%;
+    align-content: center;
+}
+
+.heading-b{
+    font-size: 80px;
+    word-spacing: 4px;
+    color: #111111;
+}
+.holud{
+    color: #fea301;
+}
+.cc{
+    color: #01acfd;
+}
+.paragraph{
+    font-size: 24px;
+    word-spacing: 4px;
+}
+.banner-btn{
+    font-size: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #111111;
+    color: rgb(255, 255, 255);
+    padding: 10px 40px;
+    border-radius: 10px;
+   margin-top: 10px;
+   display: inline-block;
+}
+
+
+.banner2{
+    width: 40%;
+}
+.banner-img{
+    width: 100%;
 }
